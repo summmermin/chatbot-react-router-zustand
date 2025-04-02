@@ -1,6 +1,6 @@
-# React Router + Zustand 채팅 프로젝트
+# React Router + Zustand + MUI 채팅 프로젝트
 
-### my-project/
+### react-router-zustand-mui-project/
 ### ├── src/
 ### │   ├── pages/
 ### │   │   ├── Home.jsx
