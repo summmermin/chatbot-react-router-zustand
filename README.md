@@ -4,6 +4,9 @@
 ### ├── src/
 ### │   ├── pages/
 ### │   │   ├── Home.jsx
+### │   │   ├── Chat.jsx
+### │   │   ├── Counter.jsx
+### │   │   ├── Test.jsx
 ### │   │   ├── About.jsx
 ### │   ├── routes/
 ### │   │   ├── AppRoutes.jsx

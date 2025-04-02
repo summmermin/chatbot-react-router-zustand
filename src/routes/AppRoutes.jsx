@@ -3,14 +3,24 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Counter from "../pages/Counter";
 import Chat from "../pages/Chat";
+import Test from "../pages/Test";
+import Layout from "../layout/Layout";
 
 const AppRoutes = () => (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home />} />
+            {/* 사이드바가 있는 페이지 */}
+            <Route element={<Layout />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/chat" element={<Chat />} />
+                <Route path="/test" element={<Test />} />
+            </Route>
+
+
+            {/* 사이드바가 없는 페이지 */}
             <Route path="/about" element={<About />} />
             <Route path="/counter" element={<Counter />} />
-            <Route path="/chat" element={<Chat />} />
+
         </Routes>
     </BrowserRouter>
 );
