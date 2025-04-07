@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/summer-portfolio/static/css/main.17d394c0.css",
+    "main.js": "/summer-portfolio/static/js/main.28cf4bbb.js",
+    "index.html": "/summer-portfolio/index.html",
+    "main.17d394c0.css.map": "/summer-portfolio/static/css/main.17d394c0.css.map",
+    "main.28cf4bbb.js.map": "/summer-portfolio/static/js/main.28cf4bbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17d394c0.css",
+    "static/js/main.28cf4bbb.js"
+  ]
+}
